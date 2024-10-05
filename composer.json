@@ -1,25 +1,29 @@
 {
-    "name": "royopa/ms-access-dbal-driver",
+    "name": "renankof/ms-access-dbal-driver-new",
     "description": "A DBAL driver to use with MS Access",
-    "homepage": "https://github.com/royopa/MSAccessDBALDriver",
+    "homepage": "https://github.com/renankof/MSAccessDBALDriver",
     "license": "MIT",
     "authors": [
         {
             "name": "Rodrigo Prado de Jesus",
             "email": "royopa@gmail.com",
             "homepage": "http://about.me/royopa/"
-        }
+        },
+        {
+            "name": "Renan Burda",
+            "email": "renanlb2004@yahoo.com.br",
+        },
     ],
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=8.3.0",
         "doctrine/dbal": "~4"
     },
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
     },
     "support": {
-        "issues": "https://github.com/royopa/MSAccessDBALDriver/issues",
-        "source": "https://github.com/royopa/MSAccessDBALDriver"
+        "issues": "https://github.com/renankof/MSAccessDBALDriver/issues",
+        "source": "https://github.com/renankof/MSAccessDBALDriver"
     },
     "autoload" : {
         "psr-0" : {
